@@ -1,0 +1,214 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    background-color: gold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+
+}
+
+.wizard-logo {
+  width: 60px;
+  border-radius: 55px;
+}
+
+@media(max-width: 900px){
+  .left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(min-width: 900px){
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+}
+
+@media(max-width: 900px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(246, 246, 247);
+}
+
+.header div {
+ display: flex;
+  align-items: center;
+   
+
+}
+
+.right-section {
+   display: flex;
+  align-items: center;
+}
+
+.right-section h2 {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.Learn-build {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 250px;
+  background-image: url(../../Pictures/iiiiii.PNG);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.Learn-build h1 {
+  color: gold;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.Learn-build p{
+  color: gold;
+  margin-bottom: 0;
+  font-size: 17px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.Our-curse-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.Our-curse-div h2 {
+ color: blue;
+  margin-bottom: 0;
+  font-size: 54px;
+  margin-top: 0;
+
+}
+
+.Our-curse-div p{
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 17px;
+  margin-top: 0;
+}
+
+.curses-mother-div {
+  display: flex;
+  flex-direction: column;
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: white;
+    transition: box-shadow 5s;
+}
+
+.curses-mother-div:hover {
+
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.curse-left-section {
+  display: flex;
+
+
+ 
+}
+
+.curses-mother-div h2 {
+  color: gold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.curses-mother-div p {
+  font-weight: bolder;
+  text-align: center;
+  color: blue;
+  font-size: 33px;
+
+}
+
+.curse-right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.Register-bottom {
+  background-color: white;
+  color: blue;
+  font-size: 27px;
+  padding: 11px 40px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  float: 1;
+  display: flex;
+  margin-bottom: 20px;
+
+  font-weight: bolder;
+
+
+}
+
+
+.Curses-image {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+@media(max-width: 700px){
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+}
